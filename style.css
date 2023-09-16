@@ -247,7 +247,7 @@ body .list table img {
         text-align: center;
     }
     main{
-        width: 80%;
+        width: 98%;
         text-align: center;
     }
     
@@ -358,7 +358,7 @@ body .list table img {
         background: #fff;
         font-size: 22px;
         margin-bottom: 15px;
-        width: 100%;
+        width: max-content;
     }
     .list table {
         border-spacing: 0;
