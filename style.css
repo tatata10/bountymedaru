@@ -239,6 +239,13 @@ body .list table img {
         display: inline-block;
     }
 
+    .pakuri{
+        justify-content: center;
+        margin: auto;
+    }
+    tbody{
+        text-align: center;
+    }
     main{
         width: 80%;
         text-align: center;
@@ -260,17 +267,9 @@ body .list table img {
     .container{
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
-    .table{
-        text-align: center;
-    }
-    table .pakuri{
-        margin-left: auto;
-        margin-right: auto;
-        width: 50px;
-        text-align: center;
-    }
     td{
         border:none;
         
@@ -357,7 +356,7 @@ body .list table img {
     }
     body .list table {
         background: #fff;
-        font-size: 12px;
+        font-size: 22px;
         margin-bottom: 15px;
         width: 100%;
     }
@@ -368,7 +367,6 @@ body .list table img {
         border-collapse: separate;
         text-indent: initial;
         border-spacing: 2px;
-        font-size: 12px;
         border-color: gray;
     }
     
@@ -394,8 +392,8 @@ body .list table img {
     body .list table img {
         margin: 0 auto 8px;
         border-radius: 4px;
-        width:200px;
-        height:106px; 
+        width:288px;
+        height:152px; 
     }
     }
 
