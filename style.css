@@ -230,20 +230,25 @@ body .list table img {
         text-align: center;
     }
     .header{
-        background: url('/images/20200212120008.png');
+        background: url('20200212120008.png');
         background-repeat: no-repeat;
         background-size: contain;
-        text-align: center;
-        width: 330rem;
-        height: auto;
+        text-align: center;  
+        height: 300px;
+        width: 600px;
         display: inline-block;
     }
-    .color{
-        background: rgba(255,255,255,.8);
-        margin-top: 7rem;
-        height: 5rem;
+
+    main{
+        width: 80%;
         text-align: center;
-        width: 16rem;
+    }
+    
+    .color{
+        background: rgba(255,255,255,.9);
+        margin-top: 4rem;
+        height: 10rem;
+        text-align: center;
         display: inline-block;
     }
     h1{
@@ -251,13 +256,16 @@ body .list table img {
         font-weight: 400;
         font-style: normal;
     }
-    main{
-        text-align: center;
+
+    .container{
+        display: flex;
+        justify-content: center;
     }
+
     .table{
         text-align: center;
     }
-    table{
+    table .pakuri{
         margin-left: auto;
         margin-right: auto;
         width: 50px;
@@ -303,7 +311,6 @@ body .list table img {
         line-height: 22px;
         letter-spacing: 0;
         color: #183028;
-        width: 40rem;
         margin-bottom: 20px;
     }
     
@@ -339,7 +346,7 @@ body .list table img {
       button::after {
         transform: translate(-50%,-50%) rotate(-45deg);
       }
-      /* サイトに飛ばすためのリンクを張る */
+    /* サイトに飛ばすためのリンクを張る */
     body .list table tr {
         border: 1px solid #e2e2e2;
     }
@@ -364,10 +371,11 @@ body .list table img {
         font-size: 12px;
         border-color: gray;
     }
-
+    
     body .list table th{
         color: rgb(68, 68, 68);
         box-sizing: border-box;
+        font-size: 15px;
     }
     body .list table td a, body table th a {
         font-weight: 700;
@@ -386,6 +394,8 @@ body .list table img {
     body .list table img {
         margin: 0 auto 8px;
         border-radius: 4px;
+        width:200px;
+        height:106px; 
     }
     }
 
