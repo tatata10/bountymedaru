@@ -73,6 +73,7 @@ p.article-desc{
     line-height: 22px;
     letter-spacing: 0;
     color: #183028;
+    margin-bottom: 20px;
 }
 
 .popup-content{
@@ -222,7 +223,7 @@ body .list table img {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
     
 
     header{
@@ -303,6 +304,7 @@ body .list table img {
         letter-spacing: 0;
         color: #183028;
         width: 40rem;
+        margin-bottom: 20px;
     }
     
     .popup-content{
