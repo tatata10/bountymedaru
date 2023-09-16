@@ -360,15 +360,18 @@ body .list table img {
         margin-bottom: 15px;
         width: max-content;
         text-align: center;
+        margin: auto;
     }
     .list table {
         border-spacing: 0;
-    }
-    .list table {
+        text-align: center;
         border-collapse: separate;
         text-indent: initial;
         border-spacing: 2px;
         border-color: gray;
+    }
+    .list table tbody{
+        text-align: center;
     }
     
     body .list table th{
